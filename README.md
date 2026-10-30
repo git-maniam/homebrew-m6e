@@ -16,8 +16,8 @@ Requirements: a Mac with Apple silicon (arm64) and macOS 11 or later.
 
 M6E is signed ad hoc and is not notarized by Apple, because the project has no Apple Developer ID. macOS Gatekeeper therefore blocks the first launch of a downloaded copy. Choose one:
 
-- Right-click `M6E.app` in Finder, choose Open, and confirm.
 - Try to open it once, then go to System Settings > Privacy & Security and click Open Anyway.
+- On macOS 14 and earlier, right-click `M6E.app` in Finder, choose Open, and confirm. (This no longer works on macOS 15 and later.)
 - Remove the quarantine flag yourself: `xattr -dr com.apple.quarantine /Applications/M6E.app`.
 
 This tap does not strip the quarantine flag for you; that is your choice to make.
