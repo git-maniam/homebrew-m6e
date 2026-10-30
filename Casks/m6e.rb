@@ -40,8 +40,6 @@ cask "m6e" do
         after the first blocked launch; or
       - remove the quarantine flag yourself:
           xattr -dr com.apple.quarantine /Applications/M6E.app
-        or install with:
-          brew install --cask --no-quarantine git-maniam/m6e/m6e
 
     M6E does not update itself. Update it with:
       brew upgrade --cask m6e

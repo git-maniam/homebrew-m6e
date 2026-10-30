@@ -19,7 +19,6 @@ M6E is signed ad hoc and is not notarized by Apple, because the project has no A
 - Right-click `M6E.app` in Finder, choose Open, and confirm.
 - Try to open it once, then go to System Settings > Privacy & Security and click Open Anyway.
 - Remove the quarantine flag yourself: `xattr -dr com.apple.quarantine /Applications/M6E.app`.
-- Install without the quarantine flag: `brew install --cask --no-quarantine git-maniam/m6e/m6e`.
 
 This tap does not strip the quarantine flag for you; that is your choice to make.
 
