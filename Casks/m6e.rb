@@ -35,9 +35,10 @@ cask "m6e" do
     M6E is signed ad hoc and is not notarized by Apple, so macOS Gatekeeper
     blocks the first launch of a downloaded copy. Do one of the following:
 
-      - Open the app from Finder with right-click > Open, then confirm; or
       - open System Settings > Privacy & Security and click "Open Anyway"
         after the first blocked launch; or
+      - on macOS 14 and earlier, open the app from Finder with
+        right-click > Open, then confirm; or
       - remove the quarantine flag yourself:
           xattr -dr com.apple.quarantine /Applications/M6E.app
 
